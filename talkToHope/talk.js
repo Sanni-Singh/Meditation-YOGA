@@ -144,6 +144,9 @@ function takeCommand(message) {
 }
 
 mic.addEventListener('click',()=>{
+
+    let audio = document.querySelector('#audio');
+    audio.play();
     if(flag2){
         let greet = document.querySelector('.greet')
         let commands = document.querySelector('.commands')
