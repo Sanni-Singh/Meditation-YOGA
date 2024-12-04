@@ -139,7 +139,7 @@ function takeCommand(message) {
     }
 
     else{
-        speak("Akash chutiya hai" , message)
+        speak("Sorry" , message)
     }
 }
 
